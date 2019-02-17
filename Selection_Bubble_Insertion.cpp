@@ -26,9 +26,17 @@ void selectionSort(vector<int>& vec) {
 	}
 }
 
+void bubbleSort(vector<int>& vec) {
+	for (int j = vec.size() - 1; j > 0; j--)
+		for (int i = 0; i < j; i++) 
+			if (vec[i] > vec[i + 1])
+				swap(vec[i], vec[i + 1]);
+}
+
 //<--TEST STUB-->
 int main()
 {
+	//Insertion Sort
 	vector<int> vec;
 	srand(time(0));
 	for (int i = 0; i < 10; i++)
@@ -43,6 +51,7 @@ int main()
 		cout << num << " ";
 	cout << "\n\n";
 
+	//Selection Sort
 	vector<int> vec1;
 	srand(time(0));
 	for (int i = 0; i < 10; i++)
@@ -54,6 +63,21 @@ int main()
 	insertionSort(vec1);
 	cout << "After doing selectionSort: ";
 	for (int num : vec1)
+		cout << num << " ";
+	cout << "\n\n";
+
+	//Bubble Sort
+	vector<int> vec2;
+	srand(time(0));
+	for (int i = 0; i < 10; i++)
+		vec2.push_back(rand() % 50);
+	cout << "Randomly generated vector: ";
+	for (int num : vec2)
+		cout << num << " ";
+	cout << "\n";
+	bubbleSort(vec2);
+	cout << "After doing bubbleSort:    ";
+	for (int num : vec2)
 		cout << num << " ";
 	cout << endl;
 

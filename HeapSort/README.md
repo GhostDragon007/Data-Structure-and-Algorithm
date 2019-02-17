@@ -12,4 +12,6 @@ get a ascendant sorted vector.
 
 Here's also a example:
 
+![img](https://github.com/GhostDragon007/Data-Structure-and-Algorithm/blob/master/HeapSort/heapSort_eg1.PNG)
+![img](https://github.com/GhostDragon007/Data-Structure-and-Algorithm/blob/master/HeapSort/heapSort_eg2.PNG)
 

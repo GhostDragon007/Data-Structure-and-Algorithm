@@ -8,3 +8,4 @@ Then you have to merge them recursively, which is called "Conquer".
 
 Here's an example:
 
+![image](https://github.com/GhostDragon007/Data-Structure-and-Algorithm/blob/master/MergeSort/mergeSort_eg.PNG)

@@ -81,6 +81,7 @@ int main()
 		cout << num << " ";
 	cout << endl;
 
+	
 	getchar();
 	return 0;
 }

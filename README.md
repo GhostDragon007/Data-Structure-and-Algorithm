@@ -3,7 +3,7 @@
 Here's a good visualization website for learning data structure & algorithm:
 https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
-It is divided into several parts:
+It is divided into several parts: (Continued)
 
 * Sorting methods
   1. Quick Sort

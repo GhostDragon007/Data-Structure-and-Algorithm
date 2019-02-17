@@ -14,4 +14,4 @@ Oppositely it has a good thing that quick sort doesn't need additional space, in
 Here's an example to help illustration:
 
 ![img](https://github.com/GhostDragon007/Data-Structure-and-Algorithm/blob/master/QuickSort/QuickSort_eg1.PNG)
-![img](https://github.com/GhostDragon007/Data-Structure-and-Algorithm/blob/master/QuickSort/QuickSort_eg2.
+![img](https://github.com/GhostDragon007/Data-Structure-and-Algorithm/blob/master/QuickSort/QuickSort_eg2.PNG)

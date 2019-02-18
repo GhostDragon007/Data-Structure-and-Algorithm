@@ -57,11 +57,11 @@ A solution set is:
   [3,5]
 ]
 
-## Solution
+## Solution (Backtracking1.cpp)
 
 In this problem, our logic is to search from index 0 to vector.size() - 1 to see if it meets requirement.
 And the requirement is target >= vector[i]. if requirement is meeted, it will go for another recursion, to see if next value meets
 requirement. If not, then return, jump out of this recursion back to the front. 
 
-I have a point of view that each recursion is just like the dream level in "Inception", our goal is to enter the deepest dream level and
+I have a point of view that each recursion is just like the dream level in the movie "Inception", our goal is to enter the deepest dream level and
 make it to jump out of them as well as get the accurate result.

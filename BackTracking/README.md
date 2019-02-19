@@ -57,7 +57,7 @@ A solution set is:
   [3,5]
 ]
 
-## Solution (Backtracking1.cpp)
+## Solution (39.Combination Sum.cpp)
 
 In this problem, our logic is to search from index 0 to vector.size() - 1 to see if it meets requirement.
 And the requirement is target >= vector[i]. if requirement is meeted, it will go for another recursion, to see if next value meets

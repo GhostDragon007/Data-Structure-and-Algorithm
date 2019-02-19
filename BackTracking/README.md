@@ -65,3 +65,5 @@ requirement. If not, then return, jump out of this recursion back to the front.
 
 I have a point of view that each recursion is just like the dream level in the movie "Inception", our goal is to enter the deepest dream level and
 make it to jump out of them as well as get the accurate result.
+
+![img](https://github.com/GhostDragon007/Data-Structure-and-Algorithm/blob/master/BackTracking/demo_39.PNG)
